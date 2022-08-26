@@ -30,3 +30,6 @@ requires = [
     "numpy; python_version>='3.11'",
     "numpy; python_version>='3.8' and platform_python_implementation=='PyPy'",
 ]
+
+[tool.isort]
+known_first_party = "skimage"
